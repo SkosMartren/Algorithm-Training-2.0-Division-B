@@ -39,4 +39,4 @@
 | 3 3 2067	| 1     	|
 
 
-запросил у (бота)[https://t.me/gettestfromcontestbot] 
+запросил у [бота](https://t.me/gettestfromcontestbot)
