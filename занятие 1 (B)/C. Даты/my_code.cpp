@@ -11,7 +11,7 @@ int main() {
 
 	// input
 	int first, second;
-	cin >> first >> second; // можно ли не до конца считать данные, так как анализировать год не смысла ввиду ограничений на него
+	cin >> first >> second; // можно не до конца считать данные, так как анализировать год не смысла ввиду ограничений на него
 
 	// output
 	if (check_first_second(first, second) || check_first_second(second, first)) {
