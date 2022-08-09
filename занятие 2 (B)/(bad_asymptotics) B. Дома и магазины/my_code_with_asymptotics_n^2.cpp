@@ -47,4 +47,11 @@ int main() {
 /*
 Вместо вектора можно использовать unordered_set, но это не рекомендуется, так как вектор - это просто массив, в нем подряд в памяти данные лежат.  
 А хеш-таблица - это там корзины и т.д. Очевидно, что константа у хеш-таблиц будет больше
+
+Также если написать
+
+	unordered_set<size_t> shops; // 2  
+	unordered_set<size_t> residential_buildings; // 1  
+
+это будет ошибка ввиду функции abs: "more than one instance of overloaded function "abs" matches the argument list:"
 */
