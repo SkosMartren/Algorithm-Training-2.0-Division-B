@@ -1,4 +1,4 @@
-graph TD
+
     A[Set operations on sorted ranges] 
     -->|$\subset$| B(includes)
     B --> C{Let me think}
