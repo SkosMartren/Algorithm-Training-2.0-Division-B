@@ -1,7 +1,7 @@
 ```mermaid
     graph TD;
     A[Set operations on sorted ranges] 
-    -->|$\subset$| B(includes)
+    -->|\subset| B(includes)
     B --> C{Let me think}
     C -->|One| D[Laptop]
     C -->|Two| E[iPhone]
