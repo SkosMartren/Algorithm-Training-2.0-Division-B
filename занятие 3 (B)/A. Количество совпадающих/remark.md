@@ -7,27 +7,25 @@
 
 using namespace std;
 
+void ReadNumbers(size_t& count_numbers, unordered_set <string>& all_numbers) {
+    while (cin.peek() != '\n') {
+        string number;
+        cin >> number;
+        ++count_numbers;
+        all_numbers.insert(number);
+    }
+}
+
 int main() {
 
     // input and solution
     unordered_set <string> all_numbers;
-    string number;
     size_t count_numbers = 0;
 
-    while (cin.peek() != '\n') {
-        cin >> number;
-        ++count_numbers;
-        all_numbers.insert(number);
-    }
-
+    ReadNumbers(count_numbers, all_numbers);
     string garbage;
     cin >> garbage;
-
-    while (cin.peek() != '\n') {
-        cin >> number;
-        ++count_numbers;
-        all_numbers.insert(number);
-    }
+    ReadNumbers(count_numbers, all_numbers);
 
     // output
     cout << count_numbers - all_numbers.size();
@@ -49,3 +47,5 @@ int main() {
 2 2 4  
 Вывод не верный — 2
 
+\
+Данное решение предоставленно ввиду того, что оно проще решения исходный задачи и алгоритм решения отличается, 
