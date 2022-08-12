@@ -50,3 +50,12 @@ Slava Muravjev, [8/12/2022 1:53 PM]
 
 Slava Muravjev, [8/12/2022 1:53 PM]
 добавьте проверку на eof
+
+Slava Muravjev, [8/12/2022 1:59 PM]
+я думаю, что там косяк с тестом
+
+Slava Muravjev, [8/12/2022 1:59 PM]
+8 тесто ведь прошло
+
+Slava Muravjev, [8/12/2022 1:59 PM]
+значит ввод рабочий
