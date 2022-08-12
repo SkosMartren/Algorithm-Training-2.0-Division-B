@@ -1,4 +1,7 @@
+ошибка: OL, 9 тест
+[EOF](https://ru.wikipedia.org/wiki/EOF)
 
+```objectivec
 #include<iostream>
 #include<unordered_set>
 
@@ -25,3 +28,25 @@ int main() {
 
   return 0;
 }
+```
+
+Slava Muravjev, [8/12/2022 1:52 PM]
+там в конце cin возвращает нули
+
+Slava Muravjev, [8/12/2022 1:53 PM]
+и никак не доходит до \n
+
+Slava Muravjev, [8/12/2022 1:53 PM]
+в каком-нибудь тесте
+
+Slava Muravjev, [8/12/2022 1:53 PM]
+а, ну я знаю, в чем дело
+
+Slava Muravjev, [8/12/2022 1:53 PM]
+там тест кривой, вероятно
+
+Slava Muravjev, [8/12/2022 1:53 PM]
+и нет в конце \n
+
+Slava Muravjev, [8/12/2022 1:53 PM]
+добавьте проверку на eof
