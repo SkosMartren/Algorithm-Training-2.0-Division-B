@@ -16,4 +16,4 @@
 #### Пример 1 ####
 | Ввод                                                                                                                  	| Вывод                                                    	|
 |-----------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------	|
-| hihi what is your name my name is bond james bond my name is damme van damme claude van damme jean claude van damme  	| damme is name van bond claude hi my james jean what your 	|
+| hi <br /> hi  <br /> what is your name  <br />  my name is bond  <br />  james bond  <br />  my name is damme  <br /> van damme  <br /> claude van damme  <br /> jean claude van damme  	| damme  <br /> is  <br /> name  <br /> van  <br /> bond  <br /> claude  <br /> hi  <br /> my  <br /> james  <br /> jean  <br /> what <br />  your 	|
