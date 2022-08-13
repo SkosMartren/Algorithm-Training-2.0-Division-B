@@ -14,6 +14,21 @@
 Выведите ответ на задачу.
 
 #### Пример 1 ####
+
 | Ввод                                                                                                                  	| Вывод                                                    	|
 |-----------------------------------------------------------------------------------------------------------------------	|----------------------------------------------------------	|
 | hi <br /> hi  <br /> what is your name  <br />  my name is bond  <br />  james bond  <br />  my name is damme  <br /> van damme  <br /> claude van damme  <br /> jean claude van damme  	| damme  <br /> is  <br /> name  <br /> van  <br /> bond  <br /> claude  <br /> hi  <br /> my  <br /> james  <br /> jean  <br /> what <br />  your 	|
+
+
+#### Пример 2 ####
+
+| Ввод                                          	| Вывод                                 	|
+|-----------------------------------------------	|---------------------------------------	|
+| oh you touch my tralala <br />  mmm my ding ding dong 	| ding  <br /> my  <br /> dong  <br /> mmm  <br /> oh  <br /> touch  <br /> tralala  <br /> you 	|
+
+
+#### Пример 3 ####
+
+| Ввод                          	| Вывод 	|
+|-------------------------------	|-------	|
+| ai ai ai ai ai ai ai ai ai ai 	|   ai    	|
