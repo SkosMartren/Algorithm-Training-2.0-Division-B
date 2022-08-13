@@ -19,8 +19,8 @@ int main() {
 		int64_t ans = 0;
 		for (; l <= r;++l) {
 			ans +=A[l-1];
-			//cout << "error!"<< ans << ' ' << A[l - 1] << '\n';
 		}
+		
 		cout << ans << '\n';
 	}
 
