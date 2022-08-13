@@ -24,7 +24,7 @@
 
 | Ввод                                          	| Вывод                                 	|
 |-----------------------------------------------	|---------------------------------------	|
-| ```objectivec oh you touch my tralala <br />  mmm my ding ding dong 	| ding  <br /> my  <br /> dong  <br /> mmm  <br /> oh  <br /> touch  <br /> tralala  <br /> you 	```|
+|  oh you touch my tralala <br />  mmm my ding ding dong 	| ding  <br /> my  <br /> dong  <br /> mmm  <br /> oh  <br /> touch  <br /> tralala  <br /> you 	|
 
 
 #### Пример 3 ####
