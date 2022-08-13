@@ -1,6 +1,6 @@
 #include<iostream>
 #include<vector>
-#include<map>
+#include<unordered_map>
 #include<algorithm> // sort
 
 using namespace std;
@@ -16,7 +16,7 @@ int main() {
 
 	// input and solution
 	string word;
-	map<string, int64_t> word_to_count;
+	unordered_map<string, int64_t> word_to_count;
 	while (cin >> word) {
 		++word_to_count[word];
 	}
@@ -28,7 +28,7 @@ int main() {
 
 	sort(count_to_word.begin(), count_to_word.end(), comp);
 
-	// output
+	// output: 
 	for (const auto& [count,word] : count_to_word) {
 		cout << word << '\n';
 	}
