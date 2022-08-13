@@ -17,7 +17,7 @@
 
  | Ввод                                        	| Вывод              	|
 |---------------------------------------------	|--------------------	|
-| McCain 10  <br /> McCain 5  <br /> Obama 9 Obama  <br /> 8  <br /> McCain 1 	| McCain 16  <br /> Obama 17 	|
+| McCain 10  <br /> McCain 5  <br /> Obama 9 <br /> Obama   8  <br /> McCain 1 	| McCain 16  <br /> Obama 17 	|
 
 
 #### Пример 2 ####
