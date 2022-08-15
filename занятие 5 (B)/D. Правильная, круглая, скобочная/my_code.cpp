@@ -11,6 +11,8 @@ int main() {
 	// solution
 	int count = 0;
 	for (const auto bracket : sequance_brackets) {
+		
+		// count += ((bracket == '(') ? +1 : -1);
 		if (bracket == '(') {
 			++count;
 		}
@@ -26,6 +28,7 @@ int main() {
 	}
 
 	// output
+	// cout << ((count == 0) ? "YES" : "NO");
 	if (count == 0) {
 		cout << "YES";
 	}
