@@ -8,7 +8,8 @@ int main() {
 	int N;
 	cin >> N;
 
-	for (int i = 0, good_idx = 0; i < N; ++i, ++good_idx) {
+	for (int i = 0, good_idx = 0; i < N; ++i, ++good_idx) { // language construction test
+	// for (int i = 0, int good_idx = 0; i < N; ++i, ++good_idx) { // error!
 		int coordinates_house;
 		cin >> coordinates_house;
 
