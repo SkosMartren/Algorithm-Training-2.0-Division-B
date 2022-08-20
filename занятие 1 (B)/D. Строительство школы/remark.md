@@ -1,0 +1,1 @@
+[Аналогичная задача из курса: Основы программирования на Python. Преподаватель:Густокашин Михаил Сергеевич,](https://www.coursera.org/learn/python-osnovy-programmirovaniya/programming/Hs8PB/grazhdanskaia-oborona)
