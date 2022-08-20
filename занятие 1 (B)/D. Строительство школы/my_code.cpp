@@ -20,3 +20,27 @@ int main() {
 	}
 
 }
+/*
+#include<iostream> 
+
+using namespace std;
+
+int main() {
+
+	// input
+	int N;
+	cin >> N;
+
+	for (int i = 0; i < N; ++i) {
+		int coordinates_house;
+		cin >> coordinates_house;
+
+		// solution and output
+		if (i == N / 2) {
+			cout << coordinates_house;
+			return 0;
+		}		
+	}
+
+}
+*/
