@@ -1,7 +1,6 @@
 #include <algorithm> // sort
 #include <iostream>
 #include <vector>
-#include  <limits.h> // INT_MIN
 
 using namespace std;
 
@@ -22,10 +21,10 @@ int scanline(const vector<pair<int, int>>& segments) {
         return (a.x < b.x || (a.x == b.x && a.type > b.type));
         });
 
-    int cnt = 0, res = 0, prev = INT_MIN;
+    int cnt = 0, res = 0, prev = -1;
 
     for (const event& e : events) {
-        if (prev != INT_MIN && cnt > 0){
+        if (prev != -1 && cnt > 0){
             res += e.x - prev; // весь отрезок [prev, e.x] покрыт cnt отрезками
         }
         cnt += e.type;
@@ -49,4 +48,3 @@ int main() {
     cout << scanline(segments);
     return 0;
 }
-// вместо INT_MIN стоит использовать numeric_limits<int>::min(), так как первая конструкциия характерна для C, в то время как вторая -- C++
