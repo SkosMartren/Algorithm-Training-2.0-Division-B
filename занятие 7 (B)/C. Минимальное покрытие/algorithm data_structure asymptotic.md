@@ -8,5 +8,5 @@
 
 
 -Ассимптотика  
-Time Complexity: O()  
-Auxiliary Space: O(N log N) 
+Time Complexity: O(N log N)  
+Auxiliary Space: O()
